@@ -42,12 +42,16 @@ $G$: genetic variates/ instrumental variables; represented as `X1` in code
 $C_1$: observed confounder; represented as `Z1` in code       
 $C_2$: observed confounder; represented as `Z2` in code      
 
-$b_{01}$ and $b_{02}$: fixed intercept     
-$b_{01i}$ and $b_{02i}$: random intercept      
-$\beta_{01}$ and $\gamma_{01}$: fixed effect of time      
-$\beta_{01i}$ and $\gamma_{01i}$: random effect of time    
+Unchanged parameters in the manuscript
+$b_{01}$ and $b_{02}$: fixed intercept; $b_{01} = b_{02} = 1$   
+$b_{01i}$ and $b_{02i}$: random intercept; $b_{01i} ~ N(0,1)$ and $b_{01i} ~ N(0,1)$       
+$\beta_{01}$ and $\gamma_{01}$: fixed effect of time;      
+$\beta_{01i}$ and $\gamma_{01i}$: random effect of time;    
 $\beta_{12}$, $\beta_{13}$, $\gamma_{12}$,and $\gamma_{13}$: fixed effect of $C_1$ and $C_2$; 
 
+Changed parameters in the manuscript 
+
+Note: all the distribution of parameters can be changed when the function is applied. 
 
 
 
