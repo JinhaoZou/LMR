@@ -45,7 +45,8 @@ $C_2$: observed confounder; represented as `Z2` in code
 $b_{01}$ and $b_{02}$: fixed intercept     
 $b_{01i}$ and $b_{02i}$: random intercept      
 $\beta_{01}$ and $\gamma_{01}$: fixed effect of time      
-$\beta_{01i}$ and $\gamma_{01i}$: random effect of time
+$\beta_{01i}$ and $\gamma_{01i}$: random effect of time    
+$\beta_{12}$, $\beta_{13}$, $\gamma_{12}$,and $\gamma_{13}$: fixed effect of $C_1$ and $C_2$; 
 
 
 
