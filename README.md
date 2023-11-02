@@ -24,7 +24,7 @@ There are major three functions:
     - Example: `Sim_all(1, 100)`
 
 ## LMR model and default setting of parameters in simulation 
-$$ X = b_{01} + b_{01i} + \beta_{01}t + \beta_{01i}t+ \beta_{11}G + \beta_{12}C_1 + \epsilon_1 $$       
+$$ X = b_{01} + b_{01i} + \beta_{01}t + \beta_{01i}t+ \beta_{11}G + \beta_{12}C_1 + \epsilon_1 $$          
 $$ Y = b_{02} + b_{02i} + \gamma_{01}t + \gamma_{01i}t + \gamma_{11}X + \gamma_{12}C_1 + \epsilon_2 $$
 
 ## Examples for estimation
