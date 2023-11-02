@@ -24,8 +24,18 @@ There are major three functions:
     - Example: `Sim_all(1, 100)`
 
 ## LMR model and default setting of parameters in simulation 
-$$ X = b_{01} + b_{01i} + \beta_{01}t + \beta_{01i}t+ \beta_{11}G + \beta_{12}C_1 + \epsilon_1 $$          
-$$ Y = b_{02} + b_{02i} + \gamma_{01}t + \gamma_{01i}t + \gamma_{11}X + \gamma_{12}C_1 + \epsilon_2 $$
+```math
+X = b_{01} + b_{01i} + \beta_{01}t + \beta_{01i}t+ \beta_{11}G + \beta_{12}C_1 + \epsilon_1
+```    
+```math
+Y = b_{02} + b_{02i} + \gamma_{01}t + \gamma_{01i}t + \gamma_{11}X + \gamma_{12}C_1 + \epsilon_2
+```
+$X$: interested time-varying exposure; represented as 'Y1' in code  
+$Y$: interested time-varying outcome; represented as 'Y2' in code  
+$t$: measurement time with unit as month; represented as 't' in code
+$G$: genetic variates/ instrumental variables; represented as `X1` in code     
+$C_1$: gen
+
 
 ## Examples for estimation
 The sample data will be added in the folder /data
