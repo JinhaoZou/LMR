@@ -39,8 +39,8 @@ $X$: interested time-varying exposure; represented as `Y1` in code
 $Y$: interested time-varying outcome; represented as `Y2` in code  
 $t$: measurement time with unit as month; represented as `t` in code
 $G$: genetic variates/ instrumental variables; represented as `X1` in code         
-$C_1$: observed confounder; represented as `Z1` in code       
-$C_2$: observed confounder; represented as `Z2` in code      
+$C_1$: observed confounder; represented as `Z1` in code; default setting in current simulation: $C_1 ~ N(1,1)$      
+$C_2$: observed confounder; represented as `Z2` in code; default setting in current simulation: $C_2 ~ N(1,1)$ 
 
 Unchanged parameters in the manuscript:         
 $b_{01}$ and $b_{02}$: fixed intercept; $b_{01} = b_{02} = 1$   
