@@ -42,15 +42,16 @@ $G$: genetic variates/ instrumental variables; represented as `X1` in code
 $C_1$: observed confounder; represented as `Z1` in code       
 $C_2$: observed confounder; represented as `Z2` in code      
 
-Unchanged parameters in the manuscript
+Unchanged parameters in the manuscript:         
 $b_{01}$ and $b_{02}$: fixed intercept; $b_{01} = b_{02} = 1$   
 $b_{01i}$ and $b_{02i}$: random intercept; $b_{01i} ~ N(0,1)$ and $b_{01i} ~ N(0,1)$       
-$\beta_{01}$ and $\gamma_{01}$: fixed effect of time;      
-$\beta_{01i}$ and $\gamma_{01i}$: random effect of time;    
-$\beta_{12}$, $\beta_{13}$, $\gamma_{12}$,and $\gamma_{13}$: fixed effect of $C_1$ and $C_2$; 
+$\beta_{01}$ and $\gamma_{01}$: fixed effect of time; $beta_{01} = gamma_{02} = 1$  
+$\beta_{01i}$ and $\gamma_{01i}$: random effect of time; $beta_{01i} ~ N(0,0.1)$ and $gamma_{01i} ~ N(0,0.1)$     
+$\beta_{12}$, $\beta_{13}$, $\gamma_{12}$,and $\gamma_{13}$: fixed effect of $C_1$ and $C_2$; $\beta_{12} = \beta_{13} = \gamma_{12} = \gamma_{13} = 1$      
+$\beta_{11}$: causal effect of IV on exposure; $\beta_{11} = 3$
 
-Changed parameters in the manuscript 
-
+Changed parameters in the manuscript:  
+$\gamma_{11} = \gamma_{11.0} + \gamma{11.1}t$ 
 Note: all the distribution of parameters can be changed when the function is applied. 
 
 
