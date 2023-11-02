@@ -23,6 +23,11 @@ There are major three functions:
 - Sim_all.R, a function to generate simulation replicates with estimated causal effects for selected scenrio setting
     - Example: `Sim_all(1, 100)`
 
+## Examples for estimation
+The sample data will be added in the folder /data
+Name of data is called example_dat, which is a list include seven data frames: `t`, `Tt`, `X1`, `Y1`, `Y2`, `Z1`, `Z2`
+
+
 ## LMR model and default setting of parameters in simulation 
 ```math
 X = b_{01} + b_{01i} + \beta_{01}t + \beta_{01i}t+ \beta_{11}G + \beta_{12}C_1 + \epsilon_1
@@ -30,13 +35,9 @@ X = b_{01} + b_{01i} + \beta_{01}t + \beta_{01i}t+ \beta_{11}G + \beta_{12}C_1 +
 ```math
 Y = b_{02} + b_{02i} + \gamma_{01}t + \gamma_{01i}t + \gamma_{11}X + \gamma_{12}C_1 + \epsilon_2
 ```
-$X$: interested time-varying exposure; represented as 'Y1' in code  
-$Y$: interested time-varying outcome; represented as 'Y2' in code  
-$t$: measurement time with unit as month; represented as 't' in code
+$X$: interested time-varying exposure; represented as `Y1` in code  
+$Y$: interested time-varying outcome; represented as `Y2` in code  
+$t$: measurement time with unit as month; represented as `t` in code
 $G$: genetic variates/ instrumental variables; represented as `X1` in code     
-$C_1$: gen
+$C_1$: 
 
-
-## Examples for estimation
-The sample data will be added in the folder /data
-Name of data is called example_dat, which is a list include seven data frames: `t`, `Tt`, `X1`, `Y1`, `Y2`, `Z1`, `Z2`
