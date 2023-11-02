@@ -28,7 +28,7 @@ The sample data will be added in the folder /data
 Name of data is called example_dat, which is a list include seven data frames: `t`, `Tt`, `X1`, `Y1`, `Y2`, `Z1`, `Z2`
 
 
-## model and parameters in simulation 
+## Model and parameters in simulation 
 ```math
 X = b_{01} + b_{01i} + \beta_{01}t + \beta_{01i}t+ \beta_{11}G + \beta_{12}C_1 + \beta_{13}C_2 + \epsilon_1
 ```    
@@ -51,7 +51,7 @@ $\beta_{12}$, $\beta_{13}$, $\gamma_{12}$,and $\gamma_{13}$: fixed effect of $C_
 $\beta_{11}$: causal effect of IV on exposure; $\beta_{11} = 3$
 
 Changed parameters in the manuscript:  
-$\gamma_{11} = \gamma_{11.0} + \gamma{11.1}t$ 
+$\gamma_{11} = \gamma_{11.0} + \gamma_{11.1}t$ 
 Note: all the distribution of parameters can be changed when the function is applied. 
 
 
