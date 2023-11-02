@@ -38,9 +38,11 @@ Y = b_{02} + b_{02i} + \gamma_{01}t + \gamma_{01i}t + \gamma_{11}X + \gamma_{12}
 $X$: interested time-varying exposure; represented as `Y1` in code  
 $Y$: interested time-varying outcome; represented as `Y2` in code  
 $t$: measurement time with unit as month; represented as `t` in code
-$G$: genetic variates/ instrumental variables; represented as `X1` in code     
-$C_1$: observed confounder; represented as `Z1` in code
-$C_2$: observed confounder; represented as `Z2` in code
+$G$: genetic variates/ instrumental variables; represented as `X1` in code         
+$C_1$: observed confounder; represented as `Z1` in code       
+$C_2$: observed confounder; represented as `Z2` in code      
+
+$b_{01}$:      
 
 
 
